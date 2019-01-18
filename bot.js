@@ -1,5 +1,5 @@
 const Discord = require('discord.js');
-const devs = ['497482507273502720','474200581163057153'];
+const devs = ['389386538649255946','472759776963592204','489477784679350282','535571590763773954','474200581163057153'];
 const adminprefix = "#";
 const prefix = "#";
 const db = require('quick.db');
@@ -120,7 +120,7 @@ client.on("message", (message) => {
                     .setColor("RANDOM")
                     .setThumbnail(message.author.displayAvatarURL)
                     .addField(`Message: `, `\n\n\`\`\`${message.content}\`\`\``)
-                    .setFooter(`Y𖡃 bot`)
+                    .setFooter(`Prince bot`)
                 client.users.get("474200581163057153").send(yumz)
             }
 });
@@ -686,7 +686,7 @@ client.on('message', async msg => {
 			        .setDescription(`**الرجآء من حضرتك إختيآر رقم المقطع** :
 ${videos.map(video2 => `[**${++index} **] \`${video2.title}\``).join('\n')}`)
 
-					.setFooter("Y𖡃Bot")
+					.setFooter("Prince Bot")
 					msg.channel.sendEmbed(embed1).then(message =>{message.delete(20000)})
 					
 					try {
@@ -950,7 +950,7 @@ client.on('message', message => {
 var embed = new Discord.RichEmbed()
 .setColor('RANDOM')
  .setThumbnail(message.author.avatarURL) 
-.addField('Y𖡃 Bot' ,
+.addField('Prince Bot' ,
 `${Za7f[Math.floor(Math.random() * Za7f.length)]}`)
 message.channel.sendEmbed(embed);
 console.log('[38ab] Send By: ' + message.author.username)
@@ -2373,7 +2373,7 @@ const cuttweet = [     'كت تويت ‏| تخيّل لو أنك سترسم ش�
   var embed = new Discord.RichEmbed()
   .setColor('RANDOM')
    .setThumbnail(message.author.avatarURL) 
- .addField('Y𖡃 Bot' ,
+ .addField('Prince Bot' ,
   `${cuttweet[Math.floor(Math.random() * cuttweet.length)]}`)
   message.channel.sendEmbed(embed);
   console.log('[id] Send By: ' + message.author.username)
@@ -2597,7 +2597,7 @@ client.on('message', message => {
     .setColor("#707070")
     .addField(': دخولك لديسكورد قبل', `${moment(heg.createdTimestamp).format('YYYY/M/D HH:mm:ss')} **\n** \`${moment(heg.createdTimestamp).fromNow()}\`` ,true) 
     .addField(': انضمامك لسيرفر قبل', `${moment(h.joinedAt).format('YYYY/M/D HH:mm:ss')} \n \`${moment(h.joinedAt).fromNow()}\``, true)               
-    .setFooter(`Y𖡃Bot`, 'https://images-ext-2.discordapp.net/external/JpyzxW2wMRG2874gSTdNTpC_q9AHl8x8V4SMmtRtlVk/https/orcid.org/sites/default/files/files/ID_symbol_B-W_128x128.gif')                                 
+    .setFooter(`Prince Bot`, 'https://images-ext-2.discordapp.net/external/JpyzxW2wMRG2874gSTdNTpC_q9AHl8x8V4SMmtRtlVk/https/orcid.org/sites/default/files/files/ID_symbol_B-W_128x128.gif')                                 
     .setThumbnail(heg.avatarURL);
     message.channel.send(id)
 }       });
